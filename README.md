@@ -1,5 +1,5 @@
-# component-creater
+# hyperftools
 
-```
-composer create-project hyperf/component-creater
+some tools for hyperf framework,such as notification,goole auth,etc;```
+composer require vency/tools
 ```
