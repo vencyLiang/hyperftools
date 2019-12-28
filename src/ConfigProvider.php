@@ -11,6 +11,7 @@ declare(strict_types=1);
  */
 
 namespace Vency\Tools;
+use Vency\Tools\Notification\{NotifyServiceFactory,NotifyService};
 
 class ConfigProvider
 {
@@ -18,6 +19,7 @@ class ConfigProvider
     {
         return [
             'dependencies' => [
+                NotifyServiceInterface::class => NotifyServiceFactory::class
             ],
             'commands' => [
             ],

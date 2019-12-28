@@ -13,9 +13,6 @@
         }
     },
     "extra":{
-        "branch-alias": {
-            "dev-master": "0.0.1-dev"
-        },
         "hyperf": {
             "config": "Vency\\Tools\\ConfigProvider"
         }
